@@ -1,16 +1,16 @@
-import "./App.css";
-import { useEffect, useState } from "react";
-import Header from "./components/Header";
-import Tasks from "./components/Tasks";
-import AddTask from "./components/AddTask";
-import axios from "axios";
+import './App.css';
+import { useEffect, useState } from 'react';
+import Header from './components/Header';
+import Tasks from './components/Tasks';
+import AddTask from './components/AddTask';
+import axios from 'axios';
 
 function App() {
   const [tasks, setTasks] = useState([]);
 
   const [showAddTask, setShowAddTask] = useState(false);
 
-  const baseUrl = "https://task-track-bety.herokuapp.com/";
+  const baseUrl = 'http://localhost:5000/tasks';
 
   //* Create Read Update Delete
 
@@ -126,7 +126,7 @@ function App() {
       {tasks.length > 0 ? (
         <Tasks tasks={tasks} deleteTask={deleteTask} toggleDone={toggleDone} />
       ) : (
-        <p style={{ textAlign: "center" }}>NO TASK TO SHOW</p>
+        <p style={{ textAlign: 'center' }}>NO TASK TO SHOW</p>
       )}
     </div>
   );
