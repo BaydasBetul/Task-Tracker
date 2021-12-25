@@ -11,6 +11,7 @@ body {
   background-image: url("./img/sahil.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+ 
 }
 
 .container {
@@ -29,6 +30,7 @@ body {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
+  color: white;
 }
 
 .btn {
