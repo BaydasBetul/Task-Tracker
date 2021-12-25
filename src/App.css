@@ -59,7 +59,7 @@ body {
 }
 
 .task {
-  border-left: 10px solid rgb(14, 177, 27);
+  border-left: 10px solid rgb(19, 219, 36);
   background-image: linear-gradient(to right, #d7d2cc 0%, #304352 100%);
   margin: 5px;
   padding: 10px 20px;
@@ -69,7 +69,7 @@ body {
 .done {
   border-left: 10px solid rgb(240, 45, 11);
   text-decoration: line-through;
-  background-image: linear-gradient(to right, #868f96 0%, #596164 100%);
+  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
 }
 
 .task h3 {

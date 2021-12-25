@@ -23,6 +23,12 @@
       "day": "Feb 7th at 10:00pm",
       "isDone": false,
       "id": 4
+    },
+    {
+      "text": "Bäcken&Essen Party",
+      "day": "01.01.2022",
+      "isDone": false,
+      "id": 5
     }
   ]
 }
