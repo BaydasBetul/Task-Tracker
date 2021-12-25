@@ -10,7 +10,7 @@ const Task = ({ task, deleteTask, toggleDone }) => {
       <h3>
         {task.text}
         <FaTimesCircle
-          style={{ color: "white" }}
+          style={{ color: "red" }}
           onClick={() => deleteTask(task.id)}
         />
       </h3>
