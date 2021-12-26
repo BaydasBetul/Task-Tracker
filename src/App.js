@@ -10,11 +10,11 @@ function App() {
 
   const [showAddTask, setShowAddTask] = useState(false);
 
-  const baseUrl = "https://task-tracker-betl-byd.herokuapp.com/tasks";
+  const baseUrl = "https://task-tracker-api-clarusway.herokuapp.com/tasks";
 
   //* Create Read Update Delete
 
-  //* Fetch tasks await fetch
+  //* Fetch tasks await
   // const fetchTasks = async () => {
   //   const res = await fetch(baseUrl);
   //   const data = await res.json();
