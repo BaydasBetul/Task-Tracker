@@ -10,7 +10,7 @@ function App() {
 
   const [showAddTask, setShowAddTask] = useState(false);
 
-  const baseUrl = "https://task-tracker-betl-byds.herokuapp.com/tasks";
+  const baseUrl = "http://localhost:5000/tasks";
 
   //* Create Read Update Delete
 
