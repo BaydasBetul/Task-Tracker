@@ -14,7 +14,7 @@ function App() {
 
   //* Create Read Update Delete
 
-  //* Fetch tasks
+  //* Fetch tasks await fetch
   // const fetchTasks = async () => {
   //   const res = await fetch(baseUrl);
   //   const data = await res.json();
